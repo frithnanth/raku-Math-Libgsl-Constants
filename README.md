@@ -1,7 +1,5 @@
 [![Build Status](https://travis-ci.org/frithnanth/raku-Math-Libgsl-Constants.svg?branch=master)](https://travis-ci.org/frithnanth/raku-Math-Libgsl-Constants)
 
-[![Build Status](https://travis-ci.org/frithnanth/raku-Math-Libgsl-Constants.svg?branch=master)](https://travis-ci.org/frithnanth/raku-Math-Libgsl-Constants)
-
 NAME
 ====
 
