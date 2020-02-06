@@ -55,9 +55,13 @@ enum gsl-error is export (
 constant GSL_SF_FACT_NMAX is export = 170; # Max n such that gsl_sf_fact(n) does not give an overflow
 constant GSL_SF_DOUBLEFACT_NMAX is export = 297; # Max n such that gsl_sf_doublefact(n) does not give an overflow.
 
-=begin pod
+enum cblas-order     is export ( CblasRowMajor => 101, CblasColMajor => 102 );
+enum cblas-transpose is export ( CblasNoTrans => 111, CblasTrans => 112, CblasConjTrans => 113 );
+enum cblas-uplo      is export ( CblasUpper => 121, CblasLower => 122 );
+enum cblas-diag      is export ( CblasNonUnit => 131, CblasUnit => 132 );
+enum cblas-side      is export ( CblasLeft => 141, CblasRight => 142 );
 
-[![Build Status](https://travis-ci.org/frithnanth/raku-Math-Libgsl-Constants.svg?branch=master)](https://travis-ci.org/frithnanth/raku-Math-Libgsl-Constants)
+=begin pod
 
 =head1 NAME
 
