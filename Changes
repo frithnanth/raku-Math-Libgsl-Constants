@@ -2,8 +2,10 @@ Revision history for Math-Libgsl-Constants
 
 {{$NEXT}}
 
-0.0.2  2020-02-06T16:46:31+01:00
+0.0.3  2020-02-29T16:26:59+01:00
+    - Constants for Random numbers
 
+0.0.2  2020-02-06T16:46:31+01:00
     - Add enums for the BLAS module
 
 0.0.1  2020-01-28T17:04:45+01:00
