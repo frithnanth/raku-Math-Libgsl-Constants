@@ -2,6 +2,12 @@ use v6;
 
 unit module Math::Libgsl::Constants:ver<0.0.3>:auth<cpan:FRITH>;
 
+use NativeCall;
+
+constant LIB  = ('gsl', v23);
+
+our $gsl-version is export = cglobal(LIB, 'gsl_version', Str);
+
 constant GSL_PREC_DOUBLE  is export = 0; # Accuracy ≅ 2 * 10⁻¹⁶
 constant GSL_PREC_SINGLE  is export = 1; # Accuracy ≅ 10⁻⁷
 constant GSL_PREC_APPROX  is export = 2; # Accuracy ≅ 5 * 10⁻⁴

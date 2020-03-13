@@ -1,0 +1,9 @@
+#!/usr/bin/env perl6
+
+use Test;
+use lib 'lib';
+use Math::Libgsl::Constants;
+
+ok $gsl-version eq '2.5', 'GSL library version';
+
+done-testing;

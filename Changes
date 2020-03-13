@@ -1,6 +1,7 @@
 Revision history for Math-Libgsl-Constants
 
 {{$NEXT}}
+    - Add library version variable
 
 0.0.3  2020-02-29T16:26:59+01:00
     - Constants for Random numbers
