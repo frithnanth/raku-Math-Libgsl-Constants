@@ -4,6 +4,6 @@ use Test;
 use lib 'lib';
 use Math::Libgsl::Constants;
 
-ok $gsl-version eq '2.5', 'GSL library version';
+ok $gsl-version eq (<2.5 2.6>).any, 'GSL library version';
 
 done-testing;

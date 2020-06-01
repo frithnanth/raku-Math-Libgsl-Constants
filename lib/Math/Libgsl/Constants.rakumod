@@ -4,9 +4,19 @@ unit module Math::Libgsl::Constants:ver<0.0.4>:auth<cpan:FRITH>;
 
 use NativeCall;
 
-constant LIB  = ('gsl', v23);
+sub LIB {
+  run('/sbin/ldconfig', '-p', :chomp, :out)
+    .out
+    .slurp(:close)
+    .split("\n")
+    .grep(/^ \s+ libgsl\.so\. \d+ /)
+    .sort
+    .head
+    .comb(/\S+/)
+    .head;
+}
 
-our $gsl-version is export = cglobal(LIB, 'gsl_version', Str);
+our $gsl-version is export = cglobal(&LIB, 'gsl_version', Str);
 
 constant GSL_PREC_DOUBLE  is export = 0; # Accuracy ≅ 2 * 10⁻¹⁶
 constant GSL_PREC_SINGLE  is export = 1; # Accuracy ≅ 10⁻⁷
@@ -73,6 +83,8 @@ enum RngType is export <BOROSH13 COVEYOU CMRG FISHMAN18 FISHMAN20 FISHMAN2X GFSR
   RANDOM32_LIBC5 RANDOM64_BSD RANDOM64_GLIBC2 RANDOM64_LIBC5 RANDOM8_BSD RANDOM8_GLIBC2 RANDOM8_LIBC5 RANDOM_BSD
   RANDOM_GLIBC2 RANDOM_LIBC5 RANDU RANF RANLUX RANLUX389 RANLXD1 RANLXD2 RANLXS0 RANLXS1 RANLXS2 RANMAR SLATEC
   TAUS TAUS2 TAUS113 TRANSPUTER TT800 UNI UNI32 VAX WATERMAN14 ZUF DEFAULT>;
+
+enum QRngType is export <NIEDERREITER2 SOBOL HALTON REVERSEHALTON>;
 
 =begin pod
 
