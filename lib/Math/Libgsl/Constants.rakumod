@@ -92,6 +92,19 @@ enum gsl_movstat_end_t is export <
   GSL_MOVSTAT_END_TRUNCATE
 >;
 
+enum gsl_filter_end_t is export <
+  GSL_FILTER_END_PADZERO
+  GSL_FILTER_END_PADVALUE
+  GSL_FILTER_END_TRUNCATE
+>;
+
+enum gsl_filter_scale_t is export <
+  GSL_FILTER_SCALE_MAD
+  GSL_FILTER_SCALE_IQR
+  GSL_FILTER_SCALE_SN
+  GSL_FILTER_SCALE_QN
+>;
+
 =begin pod
 
 =head1 NAME

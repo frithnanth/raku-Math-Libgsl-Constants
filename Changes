@@ -1,9 +1,10 @@
 Revision history for Math-Libgsl-Constants
 
 {{$NEXT}}
+    - Add constants for Digital Filtering
 
 0.0.6  2020-07-31T17:14:49+02:00
-    - Add support for Moving Window Statistics
+    - Add constants for Moving Window Statistics
 
 0.0.5  2020-06-01T14:41:29+02:00
     - Add support for library v2.6
