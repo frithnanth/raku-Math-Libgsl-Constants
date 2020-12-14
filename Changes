@@ -2,6 +2,9 @@ Revision history for Math-Libgsl-Constants
 
 {{$NEXT}}
 
+0.0.8  2020-12-14T18:39:03+01:00
+    - Add constants for Eigensystems
+
 0.0.7  2020-08-30T17:38:54+02:00
     - Add constants for Digital Filtering
 
