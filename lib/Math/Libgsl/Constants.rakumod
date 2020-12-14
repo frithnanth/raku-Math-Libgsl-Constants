@@ -105,6 +105,13 @@ enum gsl_filter_scale_t is export <
   GSL_FILTER_SCALE_QN
 >;
 
+enum gsl_eigen_sort_t is export <
+  GSL_EIGEN_SORT_VAL_ASC
+  GSL_EIGEN_SORT_VAL_DESC
+  GSL_EIGEN_SORT_ABS_ASC
+  GSL_EIGEN_SORT_ABS_DESC
+>;
+
 =begin pod
 
 =head1 NAME
