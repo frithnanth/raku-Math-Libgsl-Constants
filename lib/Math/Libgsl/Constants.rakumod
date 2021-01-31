@@ -112,6 +112,9 @@ enum gsl_eigen_sort_t is export <
   GSL_EIGEN_SORT_ABS_DESC
 >;
 
+enum InterpType1D is export <LINEAR POLYNOMIAL CSPLINE CSPLINE_PERIODIC AKIMA AKIMA_PERIODIC STEFFEN>;
+enum InterpType2D is export <BILINEAR BICUBIC>;
+
 =begin pod
 
 =head1 NAME
