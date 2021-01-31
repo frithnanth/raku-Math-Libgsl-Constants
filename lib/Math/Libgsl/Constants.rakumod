@@ -1,6 +1,6 @@
 use v6;
 
-unit module Math::Libgsl::Constants:ver<0.0.8>:auth<cpan:FRITH>;
+unit module Math::Libgsl::Constants:ver<0.0.9>:auth<cpan:FRITH>;
 
 use NativeCall;
 
