@@ -1,4 +1,4 @@
-[![Actions Status](https://github.com/frithnanth/raku-Math-Libgsl-Constants/workflows/test/badge.svg)](https://github.com/frithnanth/raku-Math-Libgsl-Constants/actions) [![Build Status](https://travis-ci.org/frithnanth/raku-Math-Libgsl-Constants.svg?branch=master)](https://travis-ci.org/frithnanth/raku-Math-Libgsl-Constants)
+[![Actions Status](https://github.com/frithnanth/raku-Math-Libgsl-Constants/workflows/test/badge.svg)](https://github.com/frithnanth/raku-Math-Libgsl-Constants/actions)
 
 NAME
 ====
