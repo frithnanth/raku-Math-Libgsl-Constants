@@ -1,6 +1,8 @@
 Revision history for Math-Libgsl-Constants
 
 {{$NEXT}}
+
+0.0.11  2021-12-07T12:22:03+01:00
     - $gsl-version becomes a Version object
 
 0.0.10  2021-10-25T21:44:18+02:00
