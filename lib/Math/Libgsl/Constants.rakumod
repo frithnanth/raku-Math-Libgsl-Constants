@@ -16,7 +16,7 @@ sub LIB {
     .head;
 }
 
-our $gsl-version is export = cglobal(&LIB, 'gsl_version', Str);
+our $gsl-version is export = cglobal(&LIB, 'gsl_version', Str).Version;
 
 constant GSL_PREC_DOUBLE  is export = 0; # Accuracy ≅ 2 * 10⁻¹⁶
 constant GSL_PREC_SINGLE  is export = 1; # Accuracy ≅ 10⁻⁷
@@ -133,6 +133,10 @@ use Math::Libgsl::Exception;
 =head1 DESCRIPTION
 
 This module provides the constants and the exception class used by all the other modules.
+
+=head1 CHANGES
+
+From v0.0.11 the version variable C<$gsl-version> is a C<Version> object.
 
 =head1 Installation
 

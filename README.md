@@ -18,6 +18,11 @@ DESCRIPTION
 
 This module provides the constants and the exception class used by all the other modules.
 
+CHANGES
+=======
+
+From v0.0.11 the version variable `$gsl-version` is a `Version` object.
+
 Installation
 ============
 
