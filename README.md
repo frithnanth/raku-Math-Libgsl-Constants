@@ -8,7 +8,7 @@ Math::Libgsl::Constants - An interface to libgsl, the Gnu Scientific Library - c
 SYNOPSIS
 ========
 
-```perl6
+```raku
 use Math::Libgsl::Constants;
 use Math::Libgsl::Exception;
 ```

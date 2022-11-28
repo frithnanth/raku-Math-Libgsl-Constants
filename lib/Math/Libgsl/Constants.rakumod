@@ -1,6 +1,6 @@
 use v6;
 
-unit module Math::Libgsl::Constants:ver<0.0.11>:auth<cpan:FRITH>;
+unit module Math::Libgsl::Constants:ver<0.0.11>:auth<zef:FRITH>;
 
 use NativeCall;
 
@@ -123,7 +123,7 @@ Math::Libgsl::Constants - An interface to libgsl, the Gnu Scientific Library - c
 
 =head1 SYNOPSIS
 
-=begin code :lang<perl6>
+=begin code :lang<raku>
 
 use Math::Libgsl::Constants;
 use Math::Libgsl::Exception;
