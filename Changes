@@ -1,6 +1,8 @@
 Revision history for Math-Libgsl-Constants
 
 {{$NEXT}}
+
+0.0.12  2022-11-28T10:56:14+01:00
     - Use zef ecosystem
 
 0.0.11  2021-12-07T12:22:03+01:00
