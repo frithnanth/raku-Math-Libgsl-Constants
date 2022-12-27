@@ -2,6 +2,9 @@ Revision history for Math-Libgsl-Constants
 
 {{$NEXT}}
 
+0.0.13  2022-12-27T12:28:40Z
+    - Add constants for the Wavelet module
+
 0.0.12  2022-11-28T10:56:14+01:00
     - Use zef ecosystem
 
