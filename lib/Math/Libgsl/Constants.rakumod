@@ -112,8 +112,11 @@ enum gsl_eigen_sort_t is export <
   GSL_EIGEN_SORT_ABS_DESC
 >;
 
+enum WaveletType is export <DAUBECHIES DAUBECHIES_CENTERED HAAR HAAR_CENTERED BSPLINE BSPLINE_CENTERED>;
 enum InterpType1D is export <LINEAR POLYNOMIAL CSPLINE CSPLINE_PERIODIC AKIMA AKIMA_PERIODIC STEFFEN>;
 enum InterpType2D is export <BILINEAR BICUBIC>;
+
+enum gsl_wavelet_direction is export ( GSL_WAVELET_FORWARD => 1, GSL_WAVELET_BACKWARD => -1 );
 
 =begin pod
 
