@@ -22,9 +22,6 @@ jobs:
       - uses: Raku/setup-raku@v1
         with:
           raku-version: ${{ matrix.raku-version }}
-      - name: Install libgsl
-        run: |
-          sudo apt install libgsl23 libgsl-dev libgslcblas0
       - name: Install Dependencies
         run: |
           zef install --/test --deps-only .
